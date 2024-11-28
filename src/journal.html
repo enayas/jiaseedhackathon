@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <a href="index.html" class="button"><img width= 100px src="img/chillguyhead.png" alt="chill guy meme"></a>
+        <nav class="navbar">
+            <a href= "mood-tracker.html" class="button">mood tracker</a>
+            <a href="journal.html" class="button">journal type shi</a>
+            <a href="login.html" class="special_button">log in?</a>
+        </nav>
+    </header>
+    <div>
+        <h1 class="title"> today's journaling quote and prompt:</h1>
+        <div id="quotes-container">Loading quotes...</div>
+    </div>
 </body>
 </html>

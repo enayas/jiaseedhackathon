@@ -22,11 +22,52 @@ body{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    
 }
+
 .navbar a {
     font-size:18px;
-    color: #A2A8A5;
     font-weight:500;
     text-decoration: none;
     margin-left:40px;
 }
+
+.button{
+    color:#A2A8A5;
+}
+
+.special_button{
+    background-color: #A2A8A5;
+    color:#545D57;
+    padding:10px 15px;
+    border-radius: 20px;
+}
+
+
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition:1s;
+}
+
+.navbar a:hover::before{
+    width:100%;
+}
+
+.title{
+    position: absolute;
+    padding-top: 175px;
+    padding-left: 450px;
+}
+#quotes-container{
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 450px;
+}
+
