@@ -6,6 +6,7 @@ h1, h2{
     padding:0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 body{
@@ -36,6 +37,12 @@ body{
     color:#A2A8A5;
 }
 
+#home_button{
+    font-size:25px;
+    font-weight:500;
+    text-decoration: none;
+    margin-left:40px;}
+
 .special_button{
     background-color: #A2A8A5;
     color:#545D57;
@@ -61,13 +68,13 @@ body{
 }
 
 .title{
-    position: absolute;
     padding-top: 175px;
-    padding-left: 450px;
+    text-align: center;
 }
 #quotes-container{
-    position: absolute;
-    padding-top: 250px;
-    padding-left: 450px;
+    padding-top:60px;
+    justify-content:center;
+    text-align: center;
+    line-height: 40px;
+    font-style:italic;
 }
-
